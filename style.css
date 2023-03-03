@@ -243,3 +243,56 @@ Wikipedia
   transition: var(--transition);
   cursor: pointer;
 }
+
+.submit-btn:hover {
+  color: var(--primary-900);
+}
+
+.results {
+  padding: 2rem 0;
+}
+
+.error {
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--red-dark);
+}
+
+.articles {
+  display: grid;
+  gap: 1rem;
+}
+
+.articles a {
+  display: block;
+  background: var(--white);
+  color: var(--textColor);
+  padding: 1.5rem 2rem;
+  border-radius: var(--borderRadius);
+  transition: var(--transition);
+}
+
+.articles p {
+  color: var(--grey-500);
+  transition: var(--transition);
+}
+
+.articles a:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .articles {
+    grid-template-columns: 1fr 1fr;
+  }
+  .form {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .articles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
