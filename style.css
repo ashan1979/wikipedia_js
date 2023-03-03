@@ -189,3 +189,11 @@ ul {
 Wikipedia
 =================
 */
+
+.wiki {
+  padding: 5rem 0;
+  width: 90wv;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
