@@ -197,3 +197,24 @@ Wikipedia
   margin: 0 auto;
 }
 
+.container {
+  text-align: center;
+}
+
+.container img {
+  width: 200px;
+}
+
+.container h3 {
+  margin-bottom: 2rem;
+}
+
+.form {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: var(--borderRadius);
+  display: grid;
+  grid-template-columns: auto 100px;
+}
